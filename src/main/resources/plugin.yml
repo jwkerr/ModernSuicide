@@ -1,0 +1,30 @@
+name: ModernSuicide
+version: "${project.version}"
+main: com.fwloopins.modernsuicide.ModernSuicide
+api-version: "1.19"
+depend: [PlaceholderAPI]
+authors: [Fruitloopins]
+description: Advanced suicide command technology
+website: https://fwloopins.com
+folia-supported: true
+
+commands:
+  suicide:
+    description: "Self-explanatory"
+    usage: "/suicide {stats/top}"
+    permission: "modernsuicide.command.suicide"
+    aliases:
+      - "commitdie"
+
+permissions:
+  modernsuicide.command.suicide.suicide:
+    description: "Allows the player to kill themselves"
+    default: true
+
+  modernsuicide.command.suicide.top:
+    description: "Allows the player to use /suicide top command method"
+    default: true
+
+  modernsuicide.command.suicide.stats:
+    description: "Allows the player to use /suicide stats {name} command method"
+    default: true
