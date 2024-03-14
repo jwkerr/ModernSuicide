@@ -2,7 +2,7 @@ package com.fwloopins.modernsuicide.command.handler;
 
 import com.fwloopins.modernsuicide.ModernSuicide;
 import com.fwloopins.modernsuicide.api.ModernSuicideMessaging;
-import com.fwloopins.modernsuicide.command.MethodHandler;
+import com.fwloopins.modernsuicide.object.MethodHandler;
 import com.fwloopins.modernsuicide.event.SuicideEvent;
 import com.fwloopins.modernsuicide.util.CommandUtil;
 import org.bukkit.command.CommandSender;

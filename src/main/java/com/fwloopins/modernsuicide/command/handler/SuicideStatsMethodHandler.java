@@ -1,7 +1,7 @@
 package com.fwloopins.modernsuicide.command.handler;
 
 import com.fwloopins.modernsuicide.api.ModernSuicideMessaging;
-import com.fwloopins.modernsuicide.command.MethodHandler;
+import com.fwloopins.modernsuicide.object.MethodHandler;
 import com.fwloopins.modernsuicide.manager.DataManager;
 import com.fwloopins.modernsuicide.object.PlayerData;
 import com.fwloopins.modernsuicide.util.CommandUtil;

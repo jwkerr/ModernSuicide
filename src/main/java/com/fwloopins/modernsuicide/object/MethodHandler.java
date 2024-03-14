@@ -1,4 +1,4 @@
-package com.fwloopins.modernsuicide.command;
+package com.fwloopins.modernsuicide.object;
 
 public abstract class MethodHandler {
 

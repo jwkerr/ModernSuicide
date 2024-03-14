@@ -1,5 +1,6 @@
 package com.fwloopins.modernsuicide.command;
 
+import com.fwloopins.modernsuicide.api.ModernSuicideMessaging;
 import com.fwloopins.modernsuicide.command.handler.SuicideStatsMethodHandler;
 import com.fwloopins.modernsuicide.command.handler.SuicideTopMethodHandler;
 import com.fwloopins.modernsuicide.command.handler.SuicideMethodHandler;
@@ -36,9 +37,11 @@ public class SuicideCommand implements TabExecutor {
                 stmh.handleMethod();
                 return true;
             }
+            default: {
+                ModernSuicideMessaging.sendErrorMessage(sender, "Invalid command argument provided");
+                return true;
+            }
         }
-
-        return true;
     }
 
     @Override
