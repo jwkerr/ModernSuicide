@@ -13,6 +13,7 @@ public final class ModernSuicide extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
+        loadConfig();
         registerCommands();
         initialiseManagers();
 
@@ -24,6 +25,11 @@ public final class ModernSuicide extends JavaPlugin {
     @Override
     public void onDisable() {
         dataManager.saveData();
+    }
+
+    private void loadConfig() {
+        saveDefaultConfig();
+        reloadConfig();
     }
 
     private void registerCommands() {

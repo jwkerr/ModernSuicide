@@ -13,8 +13,6 @@ commands:
     description: "Self-explanatory"
     usage: "/suicide {stats/top}"
     permission: "modernsuicide.command.suicide"
-    aliases:
-      - "commitdie"
 
 permissions:
   modernsuicide.command.suicide.suicide:
