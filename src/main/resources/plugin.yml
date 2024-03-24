@@ -15,6 +15,10 @@ commands:
     permission: "modernsuicide.command.suicide"
 
 permissions:
+  modernsuicide.command.suicide:
+    description: "Allows permission to the suicide command"
+    default: true
+
   modernsuicide.command.suicide.suicide:
     description: "Allows the player to kill themselves"
     default: true
