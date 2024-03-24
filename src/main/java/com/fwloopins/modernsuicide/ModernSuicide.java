@@ -36,6 +36,7 @@ public final class ModernSuicide extends JavaPlugin {
 
     private void registerCommands() {
         getCommand("suicide").setExecutor(new SuicideCommand());
+        getCommand("suicide").setTabCompleter(new SuicideCommand());
     }
 
     private void initialiseManagers() {
