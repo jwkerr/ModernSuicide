@@ -36,7 +36,7 @@ public class SuicideTopMethodHandler extends MethodHandler {
                 .append(Component.text(" Suicide Leaderboard ", TextColor.color(0xAD3E72)))
                 .append(Component.text("---", NamedTextColor.DARK_GRAY));
 
-        for (int i = 0; i < Math.min(playerDataList.size(), 9); i++) {
+        for (int i = 0; i < Math.min(playerDataList.size(), 10); i++) {
             PlayerData playerData = playerDataList.get(i);
             OfflinePlayer player = Bukkit.getOfflinePlayer(playerData.getUUID());
 
