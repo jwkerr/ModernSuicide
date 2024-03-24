@@ -2,7 +2,8 @@ name: ModernSuicide
 version: "${project.version}"
 main: com.fwloopins.modernsuicide.ModernSuicide
 api-version: "1.19"
-depend: [PlaceholderAPI]
+softdepend:
+  - PlaceholderAPI
 authors: [Fruitloopins]
 description: Advanced suicide command technology
 website: https://fwloopins.com

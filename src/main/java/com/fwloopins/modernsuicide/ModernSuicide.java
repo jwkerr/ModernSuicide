@@ -19,7 +19,9 @@ public final class ModernSuicide extends JavaPlugin {
 
         dataManager.loadData();
 
-        new ModernSuicidePlaceholderExpansion(this).register();
+        if (getServer().getPluginManager().isPluginEnabled("PlaceholderAPI")) {
+            new ModernSuicidePlaceholderExpansion(this).register();
+        }
     }
 
     @Override
